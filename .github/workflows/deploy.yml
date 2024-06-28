@@ -19,11 +19,11 @@ jobs:
 
       - name: Set up gcloud auth
 
-        # Set up Google Cloud authentication
-        # Use the GCP service account key stored in GitHub secrets
-        uses: google-github-actions/auth@v1
-        with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+#        # Set up Google Cloud authentication
+#        # Use the GCP service account key stored in GitHub secrets
+#        uses: google-github-actions/auth@v1
+#        with:
+#          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
       # Set up Java Development Kit version 17
       # Specify the Java version
