@@ -17,8 +17,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3   # Check out the repository code
 
-      - name: Set up gcloud auth
-
+#      - name: Set up gcloud auth
+#
 #        # Set up Google Cloud authentication
 #        # Use the GCP service account key stored in GitHub secrets
 #        uses: google-github-actions/auth@v1
