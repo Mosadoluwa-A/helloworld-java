@@ -32,9 +32,9 @@ public class HelloWorldServiceTest {
 
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         String period;
-        if (hour >= 0 && hour < 12) {
+        if (hour > 0 && hour < 12) {
             period = "Morning";
-        } else if (hour >= 12 && hour < 16) {
+        } else if (hour > 12 && hour < 16) {
             period = "Afternoon";
         } else {
             period = "Evening";
